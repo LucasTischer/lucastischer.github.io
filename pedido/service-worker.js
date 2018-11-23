@@ -6,10 +6,9 @@ if ('serviceWorker' in navigator) {
     .then(function () { console.log('Service Worker Registered'); });
 }
 
-var cacheName = 'todo-app';
+var cacheName = 'produtos';
 var filesToCache = [
   `${HOST}/imagens/edit.png`,
-  `${HOST}/imagens/remove.png`,
   `${HOST}/lib/bulma.css`,
   `${HOST}/app.css`,
   `${HOST}/app.js`,
