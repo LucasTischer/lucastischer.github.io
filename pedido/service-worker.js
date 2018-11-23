@@ -8,7 +8,11 @@ if ('serviceWorker' in navigator) {
 
 var cacheName = 'produtos';
 var filesToCache = [
-  `${HOST}/imagens/edit.png`,
+  `${HOST}/imagens/edit-256x256.png`,
+  `${HOST}/imagens/edit-128x128.png`,
+  `${HOST}/imagens/edit-144x144.png`,
+  `${HOST}/imagens/edit-152x152.png`,
+  `${HOST}/imagens/edit-192x192.png`,
   `${HOST}/lib/bulma.css`,
   `${HOST}/app.css`,
   `${HOST}/app.js`,
