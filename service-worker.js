@@ -1,8 +1,9 @@
-const HOST='https://lucastischer.github.io/pedido'
+// const HOST='https://lucastischer.github.io/pedido'
+const HOST='https://lucastischer.github.io'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register(`${HOST}/service-worker.js`) 
+    .register(`${HOST}/service-worker.js`)
     .then(function () { console.log('Service Worker Registered'); });
 }
 
